@@ -1,0 +1,11 @@
+.collageBob{
+    width: 35vh;
+    height: 48vh;
+    border-radius:50%;
+}
+.img-principal{
+    border-radius:50%;
+    border: 8px solid #f5ae62;
+    box-shadow: 5px 5px 10px 10px #000;
+}
+/* leo */
