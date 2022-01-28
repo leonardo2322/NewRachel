@@ -8,4 +8,78 @@
     border: 8px solid #f5ae62;
     box-shadow: 5px 5px 10px 10px #000;
 }
+
+.home .content h3{
+    padding: 30px 30px;
+}
 /* leo */
+
+.swiper-button-next,.swiper-button-prev{
+    color: #4b3621;
+    background: #fff;
+    width: 5rem;
+    height: 5rem;
+    line-height: 5rem;
+}
+.swiper-button-next::after,.swiper-button-prev::after{
+    font-size: 2rem;
+}
+.swiper-button-next:hover,.swiper-button-prev:hover{
+    background-color: #f5ae62;
+}
+.box a{
+    margin-bottom: 5rem;
+}
+.swiper-pagination{
+    color: #fff;
+    background: #8b4513;
+    font-size: 2rem;
+    width: 8rem;
+    height: 2.4rem;
+    border-radius: 20%;
+    left: 48%;
+}
+.about{
+    margin-top: 10rem;
+}
+.menu h2{
+    font-size: 2rem;
+    color: #8b4513;
+}
+
+
+
+.gallery{
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, .5);
+    z-index: 1100;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    top: 10%; left: 0;
+    position: fixed;
+}
+
+.gallery .div-gallery-container .gallery-container.active{
+    display: inline-block;
+
+}
+.gallery .div-gallery-container .gallery-container{
+    text-align: center;
+    top: 50%;
+
+    display:flex;
+}
+#close{
+    position: absolute;
+    font-size: 5rem;
+    color: #fff;
+    top: -5rem; right: 2rem;
+    cursor: pointer;
+}
+#close:hover{
+    transform: rotate(90deg);
+    color: #f5ae62;
+}
+

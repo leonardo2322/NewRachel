@@ -1,6 +1,18 @@
 let searchBtn = document.querySelector('#search-btn');
 let searchForm = document.querySelector('.header .search-form');
 
+var swiper = new Swiper(".box-container", {
+   loop:true,
+   pagination: {
+     el: ".swiper-pagination",
+     type: "fraction",
+   },
+   navigation: {
+     nextEl: ".swiper-button-next",
+     prevEl: ".swiper-button-prev",
+   },
+ });
+
 searchBtn.onclick = () =>{
    searchBtn.classList.toggle('fa-times');
    searchForm.classList.toggle('active');
@@ -24,3 +36,8 @@ window.onscroll = () =>{
    menuBtn.classList.remove('fa-times');
    navbar.classList.remove('active');
 }
+
+
+
+
+
